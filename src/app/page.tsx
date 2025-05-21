@@ -1,12 +1,10 @@
 const RootPage = () => {
   return (
-    <main className="grid h-screen w-screen place-items-center bg-black">
+    <main className="grid h-screen w-screen place-items-center">
       <div className="text-center">
-        <h1 className="text-5xl font-extrabold text-white">
-          Welcome to Cassive
-        </h1>
-        <h2 className="text-2xl font-bold text-neutral-400">
-          We develop websites for you
+        <h1 className="text-5xl font-extrabold">Welcome to Cassive</h1>
+        <h2 className="text-teal text-2xl font-bold">
+          We offer scalable website build
         </h2>
       </div>
     </main>

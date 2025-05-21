@@ -12,7 +12,7 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-light text-dark">{children}</body>
     </html>
   );
 };
