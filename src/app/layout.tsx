@@ -1,5 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({});
 
 export const metadata: Metadata = {
   title: "Cassive",
@@ -12,7 +15,11 @@ const RootLayout = ({
 }>) => {
   return (
     <html lang="en">
-      <body className="bg-light text-dark">{children}</body>
+      <body
+        className={`bg-light text-dark overflow-x-hidden ${montserrat.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 };
