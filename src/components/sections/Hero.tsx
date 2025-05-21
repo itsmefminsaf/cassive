@@ -2,8 +2,8 @@ import logo from "@/assets/Cassive.png";
 import Image from "next/image";
 import { Poetsen_One, Fleur_De_Leah } from "next/font/google";
 
-const poetsen = Poetsen_One({ weight: "400" });
-const fleur = Fleur_De_Leah({ weight: "400" });
+const poetsen = Poetsen_One({ weight: "400", subsets: ["latin"] });
+const fleur = Fleur_De_Leah({ weight: "400", subsets: ["latin"] });
 
 const Hero = () => {
   return (
